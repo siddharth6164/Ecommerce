@@ -7,6 +7,7 @@ This is a complete **E-Commerce Platform** that includes both **Frontend** and *
 ### Key Features:
 
 #### **Frontend** (Client-Side)
+
 - **Product Listing**: View a list of products with search and filter options.
 - **Product Details**: View detailed information about products.
 - **Shopping Cart**: Add products to the cart, update quantities, and view the total cost.
@@ -15,6 +16,7 @@ This is a complete **E-Commerce Platform** that includes both **Frontend** and *
 - **Order History**: View past orders and track order status.
 
 #### **Backend** (Server-Side)
+
 - **Product Management**: Admins can add, update, delete, and view products.
 - **Order Management**: Admins can view, update order status, and cancel orders.
 - **User Authentication**: Secure user login and registration with JWT authentication.
@@ -27,12 +29,14 @@ This is a complete **E-Commerce Platform** that includes both **Frontend** and *
 ## Technologies Used:
 
 ### **Frontend**
+
 - **React** (or any other JS framework)
 - **React Router** (for navigation)
 - **Axios** (for API communication)
 - **CSS** or **Styled-Components** (for styling)
 
 ### **Backend**
+
 - **Node.js** with **Express** (API server)
 - **MongoDB** with **Mongoose** (Database)
 - **JWT** (for user authentication)
@@ -44,6 +48,7 @@ This is a complete **E-Commerce Platform** that includes both **Frontend** and *
 ## Folder Structure
 
 ### **Frontend**
+
 ```
 /frontend
   /src
@@ -55,6 +60,7 @@ This is a complete **E-Commerce Platform** that includes both **Frontend** and *
 ```
 
 ### **Backend**
+
 ```
 /backend
   /config
@@ -70,44 +76,45 @@ This is a complete **E-Commerce Platform** that includes both **Frontend** and *
 ## Setup and Installation
 
 ### 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/shreyam91/ExploreAttire.git
-   cd e-commerce
-   ```
+
+```bash
+git clone https://github.com/siddharth6164/Ecommerce
+cd e-commerce
+```
 
 ### 2. **Frontend Setup**:
 
-   - Navigate to the `/frontend` directory and install dependencies:
-     ```bash
-     cd frontend
-     npm install
-     ```
-   - Configure `.env` with the API base URL:
-     ```env
-     REACT_APP_API_URL=http://localhost:5000/api
-     ```
-   - Start the frontend:
-     ```bash
-     npm start
-     ```
+- Navigate to the `/frontend` directory and install dependencies:
+  ```bash
+  cd frontend
+  npm install
+  ```
+- Configure `.env` with the API base URL:
+  ```env
+  REACT_APP_API_URL=http://localhost:5000/api
+  ```
+- Start the frontend:
+  ```bash
+  npm start
+  ```
 
 ### 3. **Backend Setup**:
 
-   - Navigate to the `/backend` directory and install dependencies:
-     ```bash
-     cd backend
-     npm install
-     ```
-   - Configure `.env` for database and JWT settings:
-     ```env
-     PORT=5000
-     DATABASE_URI=mongodb://localhost:27017/ecommerce
-     JWT_SECRET=your_jwt_secret
-     ```
-   - Start the backend:
-     ```bash
-     npm start
-     ```
+- Navigate to the `/backend` directory and install dependencies:
+  ```bash
+  cd backend
+  npm install
+  ```
+- Configure `.env` for database and JWT settings:
+  ```env
+  PORT=5000
+  DATABASE_URI=mongodb://localhost:27017/ecommerce
+  JWT_SECRET=your_jwt_secret
+  ```
+- Start the backend:
+  ```bash
+  npm start
+  ```
 
 ---
 

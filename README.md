@@ -76,11 +76,18 @@ This is a complete **E-Commerce Platform** that includes both **Frontend** and *
 ## Setup and Installation
 
 ### 1. **Clone the repository:**
+<<<<<<< HEAD
 
 ```bash
 git clone https://github.com/siddharth6164/Ecommerce
 cd e-commerce
 ```
+=======
+   ```bash
+   git clone https://github.com/siddharth6164/Ecommerce
+   cd e-commerce
+   ```
+>>>>>>> 8cc502cb862455b730316c3592dd2e728b0ad9f5
 
 ### 2. **Frontend Setup**:
 

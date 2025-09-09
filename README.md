@@ -71,7 +71,7 @@ This is a complete **E-Commerce Platform** that includes both **Frontend** and *
 
 ### 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/shreyam91/ExploreAttire.git
+   git clone https://github.com/siddharth6164/Ecommerce
    cd e-commerce
    ```
 
